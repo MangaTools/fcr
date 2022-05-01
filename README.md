@@ -1,13 +1,9 @@
 # folder_creator (fcr)
 As the name implies, this program generates folders according to specified parameters
 
----
-
 ## Install
 
 You can [build](#Build) app from source or download precompiled binaries from [releases](https://github.com/ShaDream/folder_creator/releases)
-
----
 
 ## Build
 
@@ -29,8 +25,6 @@ And in root directory of app execute:
 `go build -o fcr && chmod +x fcr`
 
 Then you can place that executable in folder listed in PATH variable
-
----
 
 ## License
 
