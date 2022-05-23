@@ -1,4 +1,4 @@
-# folder_creator (fcr)
+# Folder creator (fcr)
 As the name implies, this program generates folders according to specified parameters
 
 ## Install

@@ -13,3 +13,7 @@
 
 # Go workspace file
 go.work
+
+# folders
+.idea
+.vscode
