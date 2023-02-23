@@ -1,6 +1,6 @@
 package main
 
-import "folder_creator/cmd"
+import "fcr/cmd"
 
 func main() {
 	cmd.Execute()

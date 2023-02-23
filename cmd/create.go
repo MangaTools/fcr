@@ -3,16 +3,16 @@ package cmd
 import (
 	"errors"
 	"fmt"
-	"folder_creator/pattern"
-	"github.com/spf13/cobra"
 	"log"
 	"os"
 	"strings"
+
+	"fcr/pattern"
+
+	"github.com/spf13/cobra"
 )
 
-var (
-	ErrValidate = errors.New("validation error")
-)
+var ErrValidate = errors.New("validation error")
 
 var createCmd = &cobra.Command{
 	Use:   "create pattern",
@@ -60,7 +60,7 @@ func CreateExecute(_ *cobra.Command, args []string) {
 
 		name := strings.Replace(p, pattern.NumberPattern, currentNumber, -1)
 
-		err := os.Mkdir(name, 0755)
+		err := os.Mkdir(name, 0o755)
 		if err != nil {
 			log.Fatalln(err)
 		}

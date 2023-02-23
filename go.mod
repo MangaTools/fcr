@@ -1,4 +1,4 @@
-module folder_creator
+module fcr
 
 go 1.18
 
